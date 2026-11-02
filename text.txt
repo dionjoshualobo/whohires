@@ -1,0 +1,499 @@
+`````
+````
+```
+### Session Segment: Who Hires + Non-Code + Careers
+
+**Duration:** 8 Minutes (1:11 – 1:19)
+
+**Format:** 4 slides, ~2 minutes per slide
+
+---
+
+### Slide 1: The Transition — Who Actually Cuts the Paychecks? (1.5 Mins)
+
+*Connect directly to the previous segment on open source monetization models (SaaS, open-core, enterprise support).*
+
+* **The FOSS-Native Companies:** Companies whose primary product is their open-source stack.
+* *Examples:* **Frappe** (ERPNext), **Hasura**, **Postman**, **Canonical** (Ubuntu), **Red Hat**, **GitLab**.
+* *Why they hire:* They need people who deeply understand their open ecosystem, community dynamics, and tooling.
+
+
+* **Tech Giants Investing in Upstream Infrastructure:**
+* *Examples:* **Google**, **Microsoft**, **AWS**, **Meta**, **Juspay**, **Cloudflare**.
+* *Why they hire:* They depend on open-source infrastructure (Linux, Kubernetes, Chromium, PyTorch) and pay engineers, evangelists, and writers full-time just to contribute upstream.
+
+
+* **Foundations & Consortia:**
+* *Examples:* **Linux Foundation**, **CNCF**, **Mozilla Foundation**, **Apache Software Foundation**.
+* *Why they hire:* Funded by corporate sponsorships to maintain governance, documentation, events, and community operations.
+
+
+
+---
+
+### Slide 2: Breaking the Myth — 4 High-Impact Non-Code Pathways (2.5 Mins)
+
+*Demystify the misconception that open source requires writing C++ or systems code on day one. 80% of project friction lives outside the codebase.*
+
+* **1. Documentation & Technical Writing (Highest Need):**
+* *The Problem:* Maintainers write code, but rarely write beginner-friendly setup guides.
+* *Actions:* Clarifying vague `README.md` steps, updating broken installation instructions, writing step-by-step tutorials, or translating docs into regional languages.
+
+
+* **2. UI/UX & Product Design:**
+* *The Problem:* Developer-built tools often have unintuitive interfaces and clunky user flows.
+* *Actions:* Auditing user journeys, submitting Figma redesigns for dashboard views, improving CLI terminal outputs, and fixing web accessibility (a11y) issues.
+
+
+* **3. Issue Triage & Quality Assurance:**
+* *The Problem:* Maintainers are swamped with hundreds of duplicate or vague bug reports.
+* *Actions:* Reproducing bugs reported by other users, asking for missing system logs, labeling tickets, and verifying fixes on different operating systems.
+
+
+* **4. Community Management & DevRel:**
+* *Actions:* Organizing local community meetups, answering newcomer questions on GitHub Discussions or Discord, and writing monthly release notes.
+
+
+
+---
+
+### Slide 3: Structured Paid Pathways — Mentorships & Internships (2 Mins)
+
+*Show beginners the formal bridges that provide mentorship, stipends, and direct resume credibility.*
+
+| Program | Best For | Typical Stipend / Format | Key Organizations |
+| --- | --- | --- | --- |
+| **GSoC** (Google Summer of Code) | Students & beginners to FOSS | Paid ($1,500 – $3,000+ depending on region); 12–22 week projects | Blender, VideoLAN, Python Software Foundation, CNCF |
+| **LFX Mentorship** (Linux Foundation) | Cloud-native, systems, Linux, DevOps | Paid stipend; runs 3 cycles/year (Spring, Summer, Fall) | Kubernetes, Prometheus, Linux Kernel, Envoy |
+| **Outreachy** | Underrepresented groups in tech | $7,000 stipend; offers explicit **non-code**, docs, and UX tracks | Mozilla, Fedora, Wikimedia, Tor Project |
+| **GSoD** (Google Season of Docs) | Dedicated technical writers | Grants directly to open source organizations to hire writers | NumFOCUS, SymPy, Jenkins |
+
+---
+
+### Slide 4: The Playbook — Turning Public Contributions into Full-Time Jobs (2 Mins)
+
+*How to bypass the traditional resume black hole and convert work into job offers.*
+
+* **The Frappe Model (Hiring via Public Proof of Work):**
+* Companies like **Frappe** often skip standard algorithmic LeetCode rounds. Instead, they monitor their community forums, pull requests, and Telegram/Discord channels.
+* Consistent, polite, and helpful contributors get scouted directly because their problem-solving and communication skills are already validated in public.
+
+
+* **Your GitHub/Forge Profile is a Live Portfolio:**
+* Merged PRs, closed issues, and clear commit messages prove you can collaborate asynchronously with global teams—the exact skill remote companies look for.
+
+
+* **Actionable Next Step (Do this tonight):**
+1. Pick a tool you already use daily (e.g., an automation tool like n8n, a framework like Frappe, or an app like VLC).
+2. Open its repo, find the `CONTRIBUTING.md` file, and look for labels like `good first issue`, `documentation`, or `needs-reproduction`.
+3. Submit one small documentation fix or triage one stale issue.
+
+
+
+---
+
+Would you like a ready-to-read speaker script and slide bullet point draft for this segment, or should we refine the transition handoff from Deveesh's section?
+```
+```
+Your 8-minute segment should answer three questions that someone new to open source would naturally have:
+
+1. Why does open source exist, and how do people make money from it?
+2. Can I contribute if I don't know how to code?
+3. Which companies actually hire people with open-source experience, and how do I get there?
+
+I would structure it as a practical introduction to the open-source ecosystem and career opportunities, rather than another technical explanation of GitHub or how to make a pull request.
+
+The central message should be:
+
+Open source is not just a way to contribute code. It is an ecosystem where people build products, businesses, communities and careers.
+
+## Proposed 8-minute outline
+
+Who hires + non-code + careers
+
+8 minutes
+
+# 08:00
+
+0:00–1:30 — How does open source make money?
+
+Business models and sustainability
+
+1:30–3:30 — You don't need to code to contribute
+
+Non-code contributions and examples
+
+3:30–5:30 — Who hires open-source contributors?
+
+Companies, roles and career paths
+
+5:30–8:00 — How do you get started?
+
+Frappe, GSoC, LFX and practical roadmap
+
+## 1. How does open source make money? (1.5 minutes)
+
+Start with a question to the audience:
+
+"If the source code is freely available, how does the company developing it survive?"
+
+Explain that open source does not mean the business has to be free.
+
+Cover four business models:
+
+[Red Hat | Info Quest Technologies](https://images.openai.com/static-rsc-4/KJuv1fthPyad_n-PmCXrBeHclP7VN8efSoccE-ianoI-uMQ-m7Vze-NV8lG6rSEZFuUVTTGiYcRWhdQUkLXwX2XMh0KFj2bs9YDTSgy3LDJTrn_Y2oQOv0qXxypNke-E4eqzOmpYsblI7Mw1-o_8l38aoNwcGVO_wru_jk8tRyc?purpose=inline)
+
+1\. Enterprise support and services
+
+Companies provide paid support, consulting, maintenance and enterprise-grade services around open-source software.
+
+Example: Red Hat and RHEL.
+
+[Frappe ERPNext Icon & Logo (selfh.st) | Dashboard Icons & Logos](https://images.openai.com/static-rsc-4/x2zcUr5G1pZwjxtlL2kZJHx7Ie2mNXPXPBP4DbvmmB_yyjP3ttfoO7mwWegXin4G-4glHB3QPMj-uXwx2ZDW_7mRfg2PzfcD3UfelRVrxkbDye-JdjgEfYBTBXIYdhY-pPjpQjRDZK1mHBknBYeTz663UeIbVTVeu79pWrnmIkg?purpose=inline)
+
+2\. Hosted services / SaaS
+
+The software is open source, but users pay for someone else to host, maintain and manage it.
+
+Example: Frappe and Frappe Cloud / ERPNext.
+
+[GitLab New 2022 Logo Vector Download | Logowik](https://images.openai.com/static-rsc-4/dsO9auBxSoLNBa1-xVfDhnHcx8GxvFjvrz_nfH7EgpN8MxqZdyU9Yd4IoEmVy8atkqdkOSFIpU8MgYmj_t3LQ-fcdGwiwULVBqPJctg6ExggdacHAFu-UnYqLfwiVdikAHfpiC2wkIe5hAob4h1i9Cl7W09z2SJ4fbJwaHwnCVY?purpose=inline)
+
+3\. Open-core model
+
+The core product is open source, while additional enterprise features, integrations or management capabilities are paid.
+
+Example: GitLab.
+
+[Our Investment in Tidelift](https://images.openai.com/static-rsc-4/S_pxqTnAXjohflE-Uk_FQIDLniz3xyDo3uhEkdmG8QPz7qz69Ki5lYPDXTmblTYUOG89qwg13R34rRM3_oRjFOmgpiD9cyKFE05iTZWDfRwhTpmvDhF1oH8XaRKfYD01xOwW2P36CfuqUUqbsNkuXp7G3zFDgk_C90S-D6pBfp0?purpose=inline)
+
+4\. Sponsorship and funding
+
+Developers and projects receive money through corporate sponsorships, grants, donations and foundations.
+
+Examples: GitHub Sponsors and Open Collective.
+
+Transition: If companies make money from open source, they need people to build, maintain, document, support and grow those projects. And that brings us to the next point.
+
+## 2. You don't need to code to contribute (2 minutes)
+
+This is probably the most important part for beginners.
+
+Start with:
+
+"Imagine you find a bug in an application. You don't know how to fix the code, but you know exactly what went wrong. Can you contribute?"
+
+Yes. A project needs much more than programmers.
+
+[Technical Writer Resume Keywords: API Docs & DITA Skills (2026)](https://images.openai.com/static-rsc-4/dKImMAZSZxmfQbNS7GDauZJ2y0ES43OT2XKLjAF-9ZMiXQNSdLN6c3doezbx-YAyfUiWjm_1U6IpQdnY0qQJO1lQSaBblGiTJO3Em2ZDPamjGak2duwY_Gv3AIlzLGhMhMLgnZcBq8_rl30MzM-k6KmHLmkBJJRmvn58HfsXie4?purpose=inline)
+
+Documentation and technical writing
+
+Write tutorials, improve installation instructions, correct outdated documentation, explain complicated features.
+
+[Editor Overview | Crowdin Docs](https://images.openai.com/static-rsc-4/UtRJtd5YqSZNwY4ashdQNJXdJfKA-L_5y_V-lRCQPiLC3_XeqP4bquUwihcgPxBOq1cboqqglwCkzpJyGQKuPfwn66bJj93dO_ATV-YBb1Qxwqb9DnrL1mhF8fA3MKfNqUcKsF30_LvI_Q0ZvIxpYRuFv-FFCPY4xOOIu_umlw8?purpose=inline)
+
+Translation and localization
+
+Translate interfaces, documentation and guides into regional languages. Make software accessible to more people.
+
+[Minimum Viable Product mobile apps | Manchester Digital](https://images.openai.com/static-rsc-4/uJuoDQMJShrXt7OxfuRUCcy2UxoEXkTTLF_KOifwM77t7WPlOSCoPwbP_KvblBWKoatsbD7pWQBrBJVxhz62AWRzwZzEK50s_YFV-CrXbapuHwFxPziWH-OXsB1NGlSL4rURHv0jGylJQef5ejGo9dK6h4vjJ5TN9OgKES7x_WY?purpose=inline)
+
+Design and UX
+
+Improve interfaces, create mockups, review accessibility, identify confusing user experiences.
+
+[Top 10 Entry Level Tech Jobs Remote... | RemoteWeek.io](https://images.openai.com/static-rsc-4/UZTr38WaDdmjaECRVYaUijKcT3K6QBtmQs62W5ft2twTqz5JJNdjySm2QvtkcESNS-YAajiuVJubd37FdubLHKz9IMV2QXNv-cOa0B96HXpS8yQxPpIhw0yqwIjuqnWUa_mji2AH01AblTMYXS4Y4BFMhVe3tLk7SLweGaYyXPU?purpose=inline)
+
+Testing and bug reporting
+
+Test applications, reproduce bugs, verify fixes, report compatibility issues and test new releases.
+
+[Open Community Meetups | The Eclipse Foundation](https://images.openai.com/static-rsc-4/ujdbTjFhhwnooUuGG-hdwaPm1JSXy4AriDPjlT27zpCXhdbrp5Bu5l12mAESqS7tnSTFgzxQ9halDhUnaKkQsuwWypkxTf224fga0kmvH-IOHVSOTXxGbdWcuydsHihvXes-5q3q8jgB6t_kdOiFf_QHJ1D1H6VhJAnrciBFaVo?purpose=inline)
+
+Community and outreach
+
+Organize meetups, answer questions, manage forums, write announcements, create educational content and help onboard contributors.
+
+[October 2023 status | CryptPad Blog](https://images.openai.com/static-rsc-4/Aw1u0tioIf9bf1m_aYj1D29fCqIfmn1PQDWsuHW2jnkMczyJIALxw3iF189xQ3_W6YLingRxG4SF02dph9GsjWdQUnZAKVEPs8dLhLfSVP03bbfC_ujdmmYM3kC4JxwAyW6utHfdDE1AxdJY4gzXEOHBuDy3nMjLSLeYBFp5bHU?purpose=inline)
+
+Project management and research
+
+Write feature proposals, collect user feedback, prioritize issues, conduct research and coordinate contributors.
+
+Use a concrete example: Frappe.
+
+Frappe Framework and its ecosystem are good examples to show how someone can contribute beyond writing code.
+
+- Improve Frappe documentation through its documentation contribution process.
+- Report bugs and provide reproducible steps.
+- Help users in the community forums.
+- Improve the usability of ERPNext.
+- Help with translations and community activities.
+
+Frappe even has a community documentation workflow where contributors can progress from editing documentation to reviewing it.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://docs.frappe.io\&sz=32)
+
+Frappe Documentation+2
+
+
+
+Important distinction: Not every project accepts every kind of contribution, and contribution guidelines differ. For instance, Frappe Framework currently has a vouched-contributor requirement for pull requests, so newcomers should check the repository's current rules.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
+
+GitHub
+
+
+
+A good line to use:
+
+"Your first open-source contribution doesn't have to be a pull request. It could be a bug report that saves a developer three hours of debugging."
+
+## 3. Who hires open-source contributors? (2 minutes)
+
+Now connect contributions to actual careers.
+
+Don't make this section only about software development jobs. Show the audience that open source experience can lead to multiple career paths.
+
+### Companies to introduce
+
+[Red Hat Unveils Open-source Developed New Branding](https://images.openai.com/static-rsc-4/-9oH5TwNycmleB1L7eOY0K4ksGNe2ARuJ8NboJidpuzoNcldZHCeMWWgWFIFwC6Tm6qtjJpULljv2yS2okSwGObYmtbSSvpUNLoJ-sf5VKW1EeAQ5q8OQqj3FIF7bmYtnitfANPMK-EGruMtZvF_RtohQl9XKqWsFMi4yokN4mg?purpose=inline)
+
+Red Hat
+
+Linux, enterprise infrastructure, cloud and open-source engineering.
+
+Potential roles: Software Engineer, Support Engineer, Technical Writer, Developer Advocate.
+
+Website: [Red Hat Careers](https://www.redhat.com/en/jobs?utm_source=chatgpt.com)
+
+[Canonical Ubuntu｜朔宇科技 台灣授權代理商](https://images.openai.com/static-rsc-4/lOxo81KQCa0241Xdb7bYxrbaNOsJJ9IV-Wy9phhAe_Kikezqe7sN3SKW_413P1TnKvVZPPOYPpIAgSUaQk0rV3guAA87qnfexLO1ANAHFbItXmxGJAsi8z5AYcJgikYUrZO7u-nob1q9YUgJWInCHAjA7zD89RmpXpf2OH5Wzlc?purpose=inline)
+
+Canonical
+
+Ubuntu, Linux infrastructure, cloud and open-source ecosystem.
+
+Potential roles: Software Engineer, QA Engineer, Documentation, Community and Support.
+
+Website: [Canonical Careers](https://canonical.com/careers?utm_source=chatgpt.com)
+
+[Y Combinator](https://images.openai.com/static-rsc-4/lAf5O6rB6iDnWYuqJnEoyO4_xbGv_ygZdeTW0-Ec3RZy1pEFGA__eQOXdeuQvku_SaviypqkkmiuwVrpr442bFSeJhHB9okhlQ2bnrMwM_rQ4bCNJgp0IMPyJl8Ta3_85D6i3Ehbbs-jyi_75lLjepU2c1gz9ybH3__LLnhO7rA?purpose=inline)
+
+GitLab
+
+Open-core DevSecOps platform and remote-first engineering culture.
+
+Potential roles: Engineering, UX, Product, Developer Relations and Technical Writing.
+
+Website: [GitLab Careers](https://about.gitlab.com/jobs/?utm_source=chatgpt.com)
+
+[Frappe Logo & Brand Assets (SVG, PNG and vector) - Brandfetch](https://images.openai.com/static-rsc-4/4pNJ0IQeH7Mx2xANlxSUZLtoOH5uZP5_gRiCSWno9Dfa_i0a9OETsHW_DJQ-zxV6iy5PDpEwAnAfA74lK40g4x9uTFxg_qA_6FVFFuwENF3YA0HQBQWQs-W_gE9LfF4J5Ahk_iTFiQ2LEHhKHtQlS44zXHHnlLzBg25SdmL-5p8?purpose=inline)
+
+Frappe Technologies
+
+ERPNext, Frappe Framework and business software.
+
+Potential roles: Software Engineering, Implementation, Consulting, Product and Community.
+
+Website: [Frappe Careers](https://frappe.io/careers?utm_source=chatgpt.com)
+
+[SUSE - everywoman](https://images.openai.com/static-rsc-4/8QFY21Xks5JD9RjN5I_NYsU-mWJbHlVJZX6HUMzbfNnZfWn9lxpYA9EBptwtMDupBUW40pWuINKUco6Gn5E3i7QUdLHKqm2MvnkpuXSG-MxLswQbRuDCAlrW5XHMfxrkma5KOds2R2d4CHQf4ezq-nx_-PrTfJdVGAtuXB9wt7M?purpose=inline)
+
+SUSE
+
+Enterprise Linux, Kubernetes and cloud-native infrastructure.
+
+Potential roles: Engineering, QA, Support, Security and Technical Documentation.
+
+Website: [SUSE Careers](https://www.suse.com/careers/?utm_source=chatgpt.com)
+
+You can also mention Mozilla, Automattic, and companies building products around CNCF projects.
+
+### What jobs can open-source experience help with?
+
+| Career path             | What you demonstrate               |
+| ----------------------- | ---------------------------------- |
+| Software engineering    | Code, architecture, reviews        |
+| QA / testing            | Testing, debugging, quality        |
+| UX / design             | Usability and design contributions |
+| Technical writing       | Documentation and communication    |
+| Developer Relations     | Community, talks, tutorials        |
+| Product management      | User research, prioritization      |
+| Community management    | Collaboration and outreach         |
+| DevOps / infrastructure | Linux, cloud, deployment           |
+
+The key point:
+
+Companies don't just care that you have a GitHub account. They care that you've worked with real projects, collaborated with other people, accepted feedback and shipped something useful.
+
+Open-source contributions can demonstrate these skills, but they don't guarantee employment.
+
+## 4. How do you actually get started? (2.5 minutes)
+
+This is where you introduce Frappe, GSoC, LFX and other entry points.
+
+I would divide this into three routes.
+
+### Route A: Start contributing directly
+
+[The Beginner’s Guide to Open Source, Part 3: 6 Tips For A Great Open Source Contribution | New Relic](https://images.openai.com/static-rsc-4/K-FKSvoo890wxz09gMwa2jM-dJlIpOa_M5rZ0IUOqIHBRlqI3AeHipNYlLGzPK1xiBOoBmsZhGn9KBo-hKYYsI6gKA1QXoAFcyyXsaWa3atDqrbtOTuKdCNo1MDji0bOMC_AqITEpZCUm-lZ7Wb8LTi3oGdq_MF0LQbt7FEvmv4?purpose=inline)
+
+[newrelic.com](https://newrelic.com/blog/observability/open-source-contribution?utm_source=chatgpt.com)
+
+1. Pick a project you actually use or find interesting.
+2. Read its `CONTRIBUTING.md`.
+3. Look for labels such as `good first issue`, `beginner-friendly` or `help wanted`.
+4. Join its Discord, Matrix, forum or mailing list.
+5. Start with a small contribution.
+6. Keep contributing and become part of the community.
+
+Show them:
+
+- [GitHub – Good First Issue](https://github.com/topics/good-first-issue?utm_source=chatgpt.com)
+- [GitHub – How to Contribute](https://github.com/contribute?utm_source=chatgpt.com)
+- [Open Source Guides – How to Contribute](https://opensource.guide/how-to-contribute/?utm_source=chatgpt.com)
+
+### Route B: Apply to structured mentorship programs
+
+[See Google Summer of Code Applications Open Spring 2025 at Google Developer Groups GDG on Campus Western University - London, Canada](https://images.openai.com/static-rsc-4/LnLlVsFIrxqr6Yo1G9uFBF-yVjKicVtLvX94u2hqBpmmHzjdL372_iF2fUTStczBK0RifwrLQoQvcCMthlDFQRdQ6uHG3Q4sOuKlAu2o60r7wG-w4Pmv8McVH9F92LftHEJX6_oMFc8v316TAqHjDnCFQXTl1eE4nhbQg4kZK8Q?purpose=inline)
+
+Google Summer of Code (GSoC)
+
+A global program connecting beginners with established open-source organizations. Contributors work on mentored programming projects, typically lasting 12+ weeks, and receive a stipend.
+
+- Find participating organizations.
+- Explore their project ideas.
+- Interact with mentors before applying.
+- Submit a project proposal.
+
+[Official GSoC website](https://summerofcode.withgoogle.com/?utm_source=chatgpt.com)
+
+LFX Mentorship
+
+Structured mentorships across projects in the Linux Foundation ecosystem.
+
+- Find programs based on your skills.
+- Apply to projects with named mentors.
+- Work on scoped real-world tasks.
+- Some programs offer stipends.
+
+[Official LFX Mentorship website](https://mentorship.linuxfoundation.org/?utm_source=chatgpt.com)
+
+[Community Guide | Outreachy Documentation](https://images.openai.com/static-rsc-4/F2yB4IJojV3ewMuVRmE5z6q2M3chhSqZNjmesu22I4G0_7OoE_78RcIbBXyHq4RpgkaaNbsMSPLc2F5D2phn5NAiJt9dO2FWq-23LC_8xayuzmBLwhkhOxt1USARyImbHOm5hVyicMwQ5Ez8OIW4VcM70RS6EUmRNzQP-Tepij0?purpose=inline)
+
+Outreachy
+
+Paid internships in open source and open technology, with projects that can involve programming, documentation, design, research and other skills.
+
+[Official Outreachy website](https://www.outreachy.org/?utm_source=chatgpt.com)
+
+A useful clarification to tell the audience:
+
+- GSoC is primarily for mentored coding projects.
+- LFX opportunities depend on the individual project's requirements and can include different technical skill areas.
+- Outreachy is particularly worth exploring for people interested in non-code as well as code contributions.
+
+These are learning and contribution opportunities, not guaranteed jobs. GSoC explicitly states that it is not a Google recruitment program.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://developers.google.com\&sz=32)
+
+Google for Developers+3
+
+
+
+### Route C: Build a reputation and turn it into a career
+
+Explain that the real goal isn't just getting accepted into GSoC or collecting merged PRs.
+
+It's to become someone the community recognizes and trusts.
+
+- Consistently contribute to one or two projects.
+- Participate in discussions and reviews.
+- Attend community events.
+- Give talks and help newcomers.
+- Build relationships with maintainers.
+- Apply for internships and jobs where your experience is relevant.
+
+You can make the final point with a simple progression:
+
+Discover a project
+
+Find something you care about
+
+Make your first contribution
+
+Code, documentation, testing, design, etc.
+
+Become a regular contributor
+
+Build experience and relationships
+
+Mentorships, internships and opportunities
+
+Demonstrate your work and skills
+
+A career in the open-source ecosystem
+
+Engineering, design, product, community and more
+
+## How I would arrange the actual slides
+
+You have only eight minutes, so I would keep this to 6 slides, not one slide per contribution type.
+
+| Slide | Title                         | What to show                                     |
+| ----- | ----------------------------- | ------------------------------------------------ |
+| 1     | Open Source Is a Business     | Red Hat, Frappe, GitLab business models          |
+| 2     | You Don't Have to Code        | Six types of non-code contributions              |
+| 3     | Real-World Example: Frappe    | ERPNext, documentation, community, contributions |
+| 4     | Who Hires Open Source People? | Five companies and career paths                  |
+| 5     | Opportunities to Get Started  | GSoC, LFX, Outreachy                             |
+| 6     | From Contributor to Career    | The contribution-to-career progression           |
+
+## A few things that will make the segment more effective
+
+1\. Don't spend too long explaining GSoC. Most CS students have probably heard of it. Explain how to find an organization, interact with mentors and prepare a proposal instead.
+
+2\. Give non-code contributions equal importance. Otherwise, the audience will assume this is just another session telling them to make GitHub PRs.
+
+3\. Use Frappe as a recurring example. Introduce its business model in the first section, its contribution ecosystem in the second, and its career opportunities in the third. This also gives the other speaker's Frappe reference a meaningful place.
+
+4\. Don't promise that open-source contributions automatically get you hired. Explain that they give you demonstrable experience, a public portfolio and relationships with people working on real software.
+
+5\. End with something actionable. Give everyone a task they can do the same day: find one project they use, read its contribution guidelines and make one useful contribution this month.
+
+## Useful resources to put on your final slide
+
+| Resource                 | Link                                                                                   |
+| ------------------------ | -------------------------------------------------------------------------------------- |
+| GitHub good first issues | [Explore issues](https://github.com/topics/good-first-issue?utm_source=chatgpt.com)    |
+| Open Source Guides       | [Getting started](https://opensource.guide/?utm_source=chatgpt.com)                    |
+| Frappe contributions     | [Frappe on GitHub](https://github.com/frappe/frappe/contribute?utm_source=chatgpt.com) |
+| GSoC                     | [Apply and explore](https://summerofcode.withgoogle.com/?utm_source=chatgpt.com)       |
+| LFX Mentorship           | [Explore mentorships](https://mentorship.linuxfoundation.org/?utm_source=chatgpt.com)  |
+| Outreachy                | [Explore internships](https://www.outreachy.org/?utm_source=chatgpt.com)               |
+
+Note for the November 2026 session: GSoC 2026 contributor applications have closed, and the LFX site currently reports no programs accepting applications. Present these as recurring opportunities and direct attendees to check upcoming cycles, rather than suggesting applications are open now.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://developers.google.com\&sz=32)
+
+Google for Developers+1
+
+
+
+My recommended closing line:
+
+"You don't have to be the person who writes the most code, builds the biggest project or knows the most technologies. Open source needs people who identify problems, communicate solutions, design better experiences, document things and build communities. Find something you care about, contribute to it, and keep showing up. That's how you become part of the ecosystem."
+```
+
+
+
+
+
+
+
+
+`````
+
+
