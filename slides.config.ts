@@ -4,12 +4,12 @@ export default defineConfig({
   colorSchema: 'dark',
   css: './styles.css',
   fonts: {
-    sans: 'Inter, system-ui, sans-serif',
+    sans: 'DM Sans, system-ui, sans-serif',
     mono: 'JetBrains Mono, Fira Code, monospace',
-    weights: '400|500|600|700|800',
+    weights: '400|500|600|700',
   },
   slide: {
-    padding: '48px 64px',
+    padding: 0,
   },
   exports: {
     timeout: 60000,
